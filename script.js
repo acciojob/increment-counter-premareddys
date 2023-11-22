@@ -3,7 +3,6 @@ const increment = document.getElementById("counter");
 const button = document.getElementById("incrementBtn");
 let counter=0;
 const listener= function(){
-	alert("un-incremented value is : "+counter);
 	counter++;
 	if(counter===3){
 		alert(+counter);
