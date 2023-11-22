@@ -1,10 +1,9 @@
 //your JS code here. If required.
-let increment= document.getElementById("counter");
-let button= document.getElementById("incrementBtn");
+const increment = document.getElementById("counter");
+const button = document.getElementById("incrementBtn");
 let counter=0;
-let listener= funtion(){
+const listener= function(){
 	counter++;
-	console.log(counter);
 }
 button.addEventListener("click", listener);
 
