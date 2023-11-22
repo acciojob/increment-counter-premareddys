@@ -5,7 +5,7 @@ var count=1;
 var counter=0;
 const listener= function(){
 	totalCount.innerHTML = count;
-	alert(counter++);
+	alert(++counter);
 	count++;
 	/*if(counter===3){
 		alert(counter);
