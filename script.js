@@ -1,6 +1,6 @@
 //your JS code here. If required.
-const totalCount = document.getElementById("counter");
-const button = document.getElementById("incrementBtn");
+const totalCount = document.querySelector("#counter");
+const button = document.querySelector("#incrementBtn");
 var count=0;
 const listener= function(){
 	totalCount.innerHTML = count;
