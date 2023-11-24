@@ -3,14 +3,10 @@ const totalCount = document.querySelector("#counter");
 const button = document.querySelector("#incrementBtn");
 var count=1;
 var counter=0;
-const listener= function(){
+const listener= incrementBtn(){
 	alert(counter);
 	totalCount.innerHTML = count;
 	count++;
-	/*if(counter===3){
-		alert(counter);
-		button.removeEventListener("click",listener);
-	}*/
 };
 button.addEventListener("click", listener);
 
