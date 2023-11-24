@@ -3,7 +3,7 @@ const totalCount = document.querySelector("#counter");
 const button = document.querySelector("#incrementBtn");
 var count=1;
 var counter=0;
-const listener= incrementBtn(){
+const listener= function(){
 	alert(counter);
 	totalCount.innerHTML = count;
 	count++;
